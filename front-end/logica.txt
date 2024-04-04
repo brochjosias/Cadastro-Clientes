@@ -1,0 +1,9 @@
+Instalar Vite
+
+Instalar o Tailwind: https://tailwindcss.com/docs/guides/vite
+
+npm i react-icons
+
+npm i axios = pra interagir com o backend
+
+services = conexao com a api do backend

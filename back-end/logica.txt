@@ -1,0 +1,38 @@
+npm install typescript --save-dev
+
+tsc --init
+
+npm install fastify @fastify/cors
+
+npm i tsx = transforma o ts pra js para o node entender
+
+npm i @types/node --save-dev = pra reconhecer o process no server.ts
+
+"dev": "tsx watch src/server.ts" = muda no package.json pra startar com "npm run dev"
+
+
+Instalando prisma ORM:
+
+npm install prisma --save-dev
+npm install @prisma/client
+npx prisma init
+
+dentro do schema.prisma mudar pra "mongodb"
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+E adiciona os demais bancos q desejar pro projeto, ex: model Customer {}
+
+.env = mudar o link para o linik do banco criado no mongodb e alterar algumas coisas pra ficar assim:
+DATABASE_URL="mongodb+srv://brochjosias:josipa9719@clientes.5zdqoei.mongodb.net/clientes?retryWrites=true&w=majority"
+
+Testando se deu certo: npx prisma generate
+pra testar se esta abrindo o banco: npx prisma studio
+
+
+services = salvar dados no banco
+conttroller = quem a rota chama dentro do controller e dps chama o serviço
+
+Controller recebe os dados e chama o serviço, repassando tudo q precisa e o serviço trata e cadastra no banco. Dps devolve pro controller qual item foi cadastrado no banco
