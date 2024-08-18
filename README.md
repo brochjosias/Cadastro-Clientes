@@ -12,21 +12,16 @@ Inserir, ler, atualizar e deletar clientes
 
 ## Tecnologias Utilizadas
 
-Linguagens de Programação: _TypeScript_, _HTML_, _CSS_
-Frameworks: _React_, _Tailwind_
-Banco de Dados: _MongoDB_
-Outras Tecnologias: _Vite_, _Axios_
-_SISTEMA FULL-STACK_
+- TypeScript
+- HTML
+- CSS
+- React
+- Tailwind
+- MongoDB
 
-## Configuração do Ambiente de Desenvolvimento
-
-Siga estas etapas:
-
-Faça o download do repositório
+## Faça o download do repositório e em seu ambiente de desenvolvimento:
 
 -- PRECISA TER UMA CONTA NO MONGODB E TROCAR NO CÓDIGO A SUA CHAVE DO BANCO
-
-Em seu ambiente de desenvolvimento:
 
 **BACK-END:**
 
