@@ -1,33 +1,69 @@
-# Cadastro-Clientes
+# Cadastro de Clientes
 
 Bem-vindo ao Cadastro de Clientes! Este é um sistema de gerenciamento de clientes que oferece todas as funcionalidades essenciais.
 
-Visão Geral: Proporciona uma variedade de recursos, incluindo a administração de dados de clientes, além de facilitar a realização de operações básicas.
+## Visão Geral
 
-Funcionalidades: Inserir, ler, atualizar e deletar clientes.
+Proporciona uma variedade de recursos, incluindo a administração de dados de clientes, além de facilitar a realização de operações básicas.
 
-Tecnologias Utilizadas: Linguagens de Programação: TypeScript, HTML e CSS; Frameworks: React, tailwind; Banco de Dados: MongoDB; Outras Tecnologias: Vite, Axios.
+## Funcionalidades
 
-SISTEMA FULL-STACK
+Inserir, ler, atualizar e deletar clientes
 
-Configuração do Ambiente de Desenvolvimento, siga estas etapas:
+## Tecnologias Utilizadas
 
-Faça o download do repositório;
+Linguagens de Programação: _TypeScript_, _HTML_, _CSS_
+Frameworks: _React_, _Tailwind_
+Banco de Dados: _MongoDB_
+Outras Tecnologias: _Vite_, _Axios_
+_SISTEMA FULL-STACK_
 
---PRECISA TER UMA CONTA NO MONGODB E TROCAR NO CÓDIGO A SUA CHAVE DO BANCO
+## Configuração do Ambiente de Desenvolvimento
 
-Em seu ambiente de desenvolvimento:
+Siga estas etapas:
 
---BACK-END: cd backend;
+Faça o download do repositório
 
-Instale as Dependências: npm install;
+-- PRECISA TER UMA CONTA NO MONGODB E TROCAR NO CÓDIGO A SUA CHAVE DO BANCO
 
-Inicie o Back-end: npm run dev.
+Em seu ambiente de desenvolvimento
 
---FRONT-END: cd frontend;
+**BACK-END:**
 
-Instale as Dependências: npm install;
+```bash
+cd backend
+```
 
-Inicie o Front-end: npm run dev;
+Instale as Dependências:
 
-Assim que carregar, aparecerá o local do sistema e depois é só clicar usando o "ctrl" para abrir no seu navegador padrão.
+```bash
+npm install
+```
+
+Inicie o Back-end:
+
+```bash
+npm run dev
+```
+
+**FRONT-END:**
+
+```bash
+cd frontend
+```
+
+Instale as Dependências:
+
+```bash
+npm install
+```
+
+Inicie o Front-end:
+
+```bash
+npm run dev
+```
+
+Acesse o sistema
+
+Assim que carregar, o endereço local do sistema aparecerá no terminal. Clique nele enquanto segura o `ctrl` para abrir no seu navegador padrão.
