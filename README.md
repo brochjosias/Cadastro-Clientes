@@ -26,7 +26,7 @@ Faça o download do repositório
 
 -- PRECISA TER UMA CONTA NO MONGODB E TROCAR NO CÓDIGO A SUA CHAVE DO BANCO
 
-Em seu ambiente de desenvolvimento
+Em seu ambiente de desenvolvimento:
 
 **BACK-END:**
 
