@@ -64,6 +64,4 @@ Inicie o Front-end:
 npm run dev
 ```
 
-Acesse o sistema
-
-Assim que carregar, o endereço local do sistema aparecerá no terminal. Clique nele enquanto segura o `ctrl` para abrir no seu navegador padrão.
+Acesse o sistema e assim que carregar, o endereço local do sistema aparecerá no terminal. Clique nele enquanto segura o `ctrl` para abrir no seu navegador padrão.
